@@ -34,7 +34,7 @@ function validateGuess(guess) {
             arrIndex = pevGuess[i];
         }
         if (noOfGuesses === 9) { // condition for if game ends
-            displayResult("Game over , you lose the random number was ".concat(random, " "));
+            displayResult("Game over , You will never be able to win ".concat(random, " "));
             endGame();
         }
         else { // if number of guesses doesn't exceed the limit
@@ -45,7 +45,7 @@ function validateGuess(guess) {
 }
 function checkGuess(guess) {
     if (guess === random) {
-        displayResult("Congratulation! you gussed correct number");
+        displayResult("Congratulation! liken ap pher bhe har chuke hain");
     }
     else if (guess < random) {
         displayResult("Your Guess is tooo Low.");
