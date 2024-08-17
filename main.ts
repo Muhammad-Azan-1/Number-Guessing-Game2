@@ -44,7 +44,7 @@ function validateGuess(guess:number){  // This function checks if the user guess
 
         if(noOfGuesses === 9){ // condition for if game ends
            
-            displayResult(`Game over , you lose the random number was ${random} `);
+            displayResult(`Game over , You will never be able to win ${random} `);
             endGame()
 
         }else{ // if number of guesses doesn't exceed the limit
@@ -59,7 +59,7 @@ function validateGuess(guess:number){  // This function checks if the user guess
 function checkGuess(guess:number){ //This function checks that does the value enter by user is equal to random number or not less then ot greater then etc.(in short check the guess number)
 
     if(guess === random){
-        displayResult(`Congratulation! you gussed correct number`)
+        displayResult(`Congratulation! liken ap pher bhe har chuke hain`)
     }else if(guess < random){
         displayResult(`Your Guess is tooo Low.`)
     }else if(guess > random){
